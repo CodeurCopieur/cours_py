@@ -1,4 +1,4 @@
-## Ce que vous apprendrez
+## Ce que je vais apprendre
 
 
 * Apprendre la programmation en partant de zéro
