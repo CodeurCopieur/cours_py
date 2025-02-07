@@ -12,3 +12,16 @@ mdp = ""
 while mdp != "mdp":
     mdp = input("Entrez votre mot de passe: ")
 print("Mot de passe correct")
+
+# Programme 
+
+age_pro = 0
+while age_pro == 0:
+  age = input("Entrez votre age: ")
+  try:
+    age_pro = int(age) + 1
+    age = int(age)
+  except:
+    print("Veuillez entrer un nombre entier") 
+print(f"Votre age est {age}, l'an prochain vous aurez {age_pro} ans")
+print("l'an prochain vous aurez " + str(age + 1) + " ans")
