@@ -9,7 +9,7 @@ while i < 5:
 # Exemple 2
 
 mdp = ""
-while mdp != "mdp":
+while not mdp == "mdp":
     mdp = input("Entrez votre mot de passe: ")
 print("Mot de passe correct")
 
