@@ -11,6 +11,14 @@ def info_personne(nom, age):
     else:
         print("Vous êtes mineur")   
 
+    if age == 17:
+        print("Vous êtes presque majeur")
+    elif age == 18:
+        print("Bravo vous êtes majeur")
+    elif age >= 18:
+        print("Vous êtes un jeune")
+    else:
+        print("Vous êtes un mineur")
 
 def demander_age():
     reponse_age = 0
