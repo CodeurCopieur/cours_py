@@ -15,6 +15,10 @@ def info_personne(nom, age):
         print("Vous êtes presque majeur")
     elif age == 18:
         print("Bravo vous êtes majeur")
+    elif age < 10:
+        print("Vous êtes un enfant")
+    elif age > 60:
+        print("Vous êtes un sénior")
     elif age >= 18:
         print("Vous êtes un jeune")
     else:
@@ -33,8 +37,10 @@ def demander_age():
 
 def demander_nom():
     reponse_nom = ""
-    while reponse_nom == "":
+    while reponse_nom == "" or reponse_nom.isdigit():
         reponse_nom = input("Quel est votre nom ? ")
+        if reponse_nom.isdigit():
+            print("Le nom ne peut pas être un nombre. Veuillez réessayer.")
     return reponse_nom
 
 # demander le nom 
