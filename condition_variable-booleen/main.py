@@ -13,6 +13,10 @@ def info_personne(nom, age):
 
     if age == 17:
         print("Vous êtes presque majeur")
+    elif 12 <= age <= 18:
+        print("Vous êtes un adolescent")
+    elif age == 1 or age == 2:
+        print("Vous êtes un bébé")
     elif age == 18:
         print("Bravo vous êtes majeur")
     elif age < 10:
