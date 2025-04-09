@@ -15,11 +15,11 @@ def demander_age(nom):
 
 
 # demander le nom 
-nb_personnes = 3
+NB_PERSONNES = 3
 
 
 # la boucle for
-for i in range (0, nb_personnes):
+for i in range (0, NB_PERSONNES):
     nom = "Inconnu " + str(i + 1)
     age = demander_age(nom)
     info_personne(nom, age)
