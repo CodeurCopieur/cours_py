@@ -2,6 +2,16 @@ def info_personne(nom, age, taille=0):
     print(f"Bonjour {nom}, tu as {age} ans")
     print(f"Tu auras {age + 1} ans dans un an")
 
+    # chaine formatées   
+    print("Bonjour %s, tu as %s ans" % (nom, age))
+    print("Tu auras %s ans dans un an" % (age + 1))
+    print("""
+            les 
+            chaînes 
+            formatées
+          """)
+    print("fcb", 5, "ldc", "tiki taka")
+
     if not taille == 0:
         print(f"votre taile est de {taille}m")
 
